@@ -17,25 +17,23 @@
         <!--[if lt IE 9]>
         <script src="lib/js/html5shiv.js"></script>
         <![endif]-->
-  </head>
-  <body>
-    <div class="reveal">
-      <div class="slides">
-      <section id="slide-title" data-state="bluesky">
-  <h1>Git for scientists</h1>
-  <p>
-    <div class="attribution">
-    <a href="http://www.inundata.org/">Karthik Ram </a><br />
-    @_inundata
-    </div>
-  </p>
+</head>
+
+<body>
+	<div class="reveal">
+	<div class="slides">
+
+<!-- .......................................... -->
+
+<section id="slide-title" data-state="bluesky">
+<h1>Git for scientists</h1>
 </section>
 
 
 <!-- .......................................... -->
 <section id="howmany" data-markdown>
     <script type="text/template">
-        ## Have you heard of a Version Control System?
+        ## Raise your hands: do you use a Version Control System?
     </script>
 </section>
 
@@ -48,28 +46,16 @@
         ![](img/vcs_for_science.png)
     </script>
 </section>
+<!-- .......................................... -->
 
 <!-- .......................................... -->
 <section id="Transparency" data-markdown data-state="bluesky">
     <script type="text/template">
-        ## Uses of version control
-          * An amazing backup
-          * promotes transparency
-          * facilitates reproducibility
-          * faster recovery from errors
-          * easier collaboration
-    </script>
-</section>
-
-<!-- .......................................... -->
-<section id="benefits_for_you" data-markdown data-state="bluesky">
-    <script type="text/template">
-        ## Uses of version control
-          * Writing papers (either alone or collaboratively)
-          * Manage spreadsheet data
-          * Writing lectures
-          * Writing syllabi
-          * maintain your scripts (R, Python, whatever else)
+        ## Version control gives you
+          * Peace of mind - a fine-grained backup system
+          * Freedom - try new things by branching 
+		  * Collaboration - synchronization across multiple people/computers
+		  * Reproducibility
     </script>
 </section>
 
@@ -83,13 +69,25 @@
 
 <!-- .......................................... -->
 <section id="snapshots" data-markdown>
-
     <script type="text/template">
     ### Version control captures snapshots of your work through time
     ![](http://git-scm.com/figures/18333fig0105-tn.png)
     </script>
 </section>
 
+<!-- .......................................... -->
+<section id="benefits_for_you" data-markdown data-state="bluesky">
+	<!-- <script type="text/template">-->
+        
+		## Use version control for everything
+		<ul>
+		<li>* Everyday research - analysis code </li>
+		<li>* Writing papers - either alone or collaboratively</li>
+        * Manage spreadsheet data 
+		* Teaching - lectures/syllabi, but also homework
+		</ul>
+		<!-- </script> -->
+</section>
 
 <!-- .......................................... -->
 <section id="how_it_works" data-markdown data-state="bluesky">
@@ -98,12 +96,24 @@
     </script>
 </section>
 
-
 <!-- .......................................... -->
 <section id="distributed" data-markdown>
     <script type="text/template">
         ##  Git is an open source, distributed, version control system.
     </script>
+</section>
+
+<!-- .......................................... -->
+
+<section id="modes_of_git", data-markdown data-state="bluesky">
+	<script type="text/template">
+	<h2> Modes of git usage </h2>
+	* Local, single-user, linear workflow
+	* Single local user, branching
+	* Using remotes as a single user
+	* Remotes for collaborating in a small team
+	* Full-contact github: distributed collaboration with large teams
+	</script>
 </section>
 
 <!-- .......................................... -->
@@ -286,6 +296,7 @@
 
 <!-- ~~~~~~~~~~~~~ End Chacon, damn that was long  ~~~~~~~~~~~~~~~~~~ -->
 
+
 <!-- .......................................... -->
 <section id="lets_start" data-markdown data-state="bluesky">
     <script type="text/template">
@@ -310,10 +321,11 @@ git
         ## Configuration
         <br><br>
         ```
-        git config --global user.name "Karthik Ram"
-        git config --global user.email "kram@berkeley.edu"
+        git config --global user.name "Sarah Bellum"
+        git config --global user.email "sbellum@stanford.edu"
         git config --global color.ui "auto"
-        ```
+        git config --global editor "emacs"
+		```
 <p class="small" align="left">See your current setings</p>
 ```
 git config --list
