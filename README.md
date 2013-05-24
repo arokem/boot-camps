@@ -1,3 +1,15 @@
+Software Carpentry @ Stanford University
+========================================
+
+This is the Git repository. If you want to view the class materials, go to 
+[this website](http://arokem.github.io/boot-camps/2013-05-06-stanford/).
+
+If you want to grab all class materials, 
+
+    git clone git://github.com/arokem/boot-camps.git stanford_bootcamp
+    cd stanford_bootcamp
+    git checkout 2013-05-06-stanford
+
 Software Carpentry Boot Camps
 =============================
 
