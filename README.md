@@ -1,5 +1,5 @@
-Software Carpentry @ Stanford University
-========================================
+Software Carpentry @ eResearch NZ 2013
+======================================
 
 This is the Git repository. If you want to view the class materials, go to 
 [this website](http://arokem.github.io/boot-camps/2013-07-01-christchurch/).
