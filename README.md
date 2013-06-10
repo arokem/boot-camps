@@ -6,9 +6,9 @@ This is the Git repository. If you want to view the class materials, go to
 
 If you want to grab all class materials, 
 
-    git clone git://github.com/arokem/boot-camps.git stanford_bootcamp
-    cd stanford_bootcamp
-    git checkout 2013-05-06-stanford
+    git clone git://github.com/arokem/boot-camps.git christchurch_bootcamp
+    cd christchurch_bootcamp
+    git checkout 2013-07-christchurch
 
 Software Carpentry Boot Camps
 =============================
