@@ -34,7 +34,7 @@ What are helpers for? Well, they're here to *help*! If you are stuck with someth
 
 *"This is the Unix philosophy: Write programs that do one thing and do it well. Write programs to work together. Write programs to handle text streams, because that is a universal interface."* -- Doug Mcllroy (via [Wikipedia](http://en.wikipedia.org/wiki/Unix_philosophy))
 
-- Git : Version control or time travel made easy.
+- Git : Version control, or time travel made easy.
 
 # Day 2 - programming 
 
@@ -44,9 +44,9 @@ What are helpers for? Well, they're here to *help*! If you are stuck with someth
 
 # Day 3 - Building robust reliable really reliable science 
 
-- Software validation and testing : before we go on to more advanced data exploration and visualization, we will take a moment to teach you how to verify that your software works. We will use automated testing using the nose library. Test-driven development will be introduced as a way of thinking about writing code. 
+- Software validation and testing : Now that you know how to program, make sure that your software works. We will use automated testing using the nose library. Test-driven development will be introduced as a way of thinking about writing code. 
 
-- Data exploration and analysis: with all the tools at our disposal, we will now attack a scientific question with some data from neuroscience experiments. We will demonstrate how you would build a reproducible work-flow for your computational analysis. 
+- Reproducible work-flow: with all the tools at our disposal, we will now demonstrate how you would build a reproducible work-flow for your computational analysis. 
 
 ### Etherpad: 
 Find the instructors and helpers during the breaks and ask us questions! But - in particular, please use [this etherpad](https://etherpad.mozilla.org/swc-christchurch-072013) to make comments and ask questions as we go along.
