@@ -550,7 +550,7 @@ are identical to the `man` program.
 | key     | action |
 | ------- | ---------- |
 | "space" | to go forward |
-|  "b"    | to go backwarsd |
+|  "b"    | to go backward |
 |  "g"    | to go to the beginning |
 |  "G"    | to go to the end |
 |  "q"    | to quit |
