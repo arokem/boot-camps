@@ -303,8 +303,8 @@ implanted in the inner ear to give deaf people a sense of
 hearing. More than a quarter of a million people have them, but there
 is still no widely-accepted benchmark to measure their effectiveness.
 In order to establish a baseline for such a benchmark, our supervisor
-got teenagers with CIs to listen to audio files on their computer and
-report:
+got teenagers with implants to listen to audio files on their computer 
+and report:
 
 1.  the quietest sound they could hear
 2.  the lowest and highest tones they could hear
