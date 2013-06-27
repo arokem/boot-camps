@@ -260,17 +260,17 @@ Now that our module has been tested, lets turn this program into a standalone
 script that we can run from the command line. This takes very little additional 
 work, now that we have our function in a module.
 
-At the bottom of the `make_sightings.py`, add the following lines:
+At the bottom of the `mean_sightings.py`, add the following lines:
 
 	filename = 'sightings_tab_sm.csv'
 	focusanimal = 'Owl'
 	print get_sightings(filename, focusanimal)
 
 Now, head over to the command line and make sure that you're in the directory 
-containing the `make_sightings.py` file. Type the statement below then hit 
+containing the `mean_sightings.py` file. Type the statement below then hit 
 return.
 
-	python make_sightings.py
+	python mean_sightings.py
 
 You should see the output `(2, 17)` printed to the screen, which is the correct 
 number of records and the mean number of animals per record for the Owl in the 
@@ -283,7 +283,7 @@ sightings_tab_sm.csv Owl` instead of having to make a change in the file itself
 each time we want to use a different file and focal animal.
 
 This is actually pretty easy to do using a Python module called `sys`. At the 
-top of the `make_sightings.py` file, add the line
+top of the `mean_sightings.py` file, add the line
 
 	import sys
 
@@ -296,13 +296,13 @@ then at the bottom of the file, change your code to read
 The variable `sys.argv` is a list of all of the arguments given on the command 
 line when this file is called (you can see this by putting `print sys.argv` a 
 the bottom of the script as well. The first argument, `sys.argv[0]`, is always 
-the name of the file that was run - in this case, it's `make_sightings.py`. The 
+the name of the file that was run - in this case, it's `mean_sightings.py`. The 
 second and third arguments are stored in `sys.argv[1]` and `sys.argv[2]`, and 
 we've chosen to use these as the filename and focusanimal.
 
 Now you can simply type
 
-	python make_sightings.py sightings_tab_sm.csv Owl
+	python mean_sightings.py sightings_tab_sm.csv Owl
 
 and you'll get what you were expecting. Try this out with different animals and 
 with the large table. Make sure it works for our special cases that we 
@@ -310,7 +310,7 @@ addressed before, like the capitalization of the animal name being incorrect.
 
 Two more small changes will make our command line script extra professional.
 
-First, we have now changed our file `make_sightings.py` so that it runs from 
+First, we have now changed our file `mean_sightings.py` so that it runs from 
 the command line, but what if we want to also be able to import functions from 
 it as a module from other Python programs (such as in notebooks when we run 
 `import mean_sightings`)? The best way to do this is to wrap all of the lines 
