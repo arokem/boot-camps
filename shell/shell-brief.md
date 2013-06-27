@@ -1,6 +1,7 @@
-# Quick links into sections of document
+# A Brief Introduction to the Shell
+- Shreyas Cholia (Borrowed heavily from the shell section of Cindee Madison's tutorial).
 
-[Quick Links]
+# Quick links into sections of document
 
 * [pwd] (#pwd)
 * [whoami](#whoami)
