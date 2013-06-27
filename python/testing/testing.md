@@ -336,9 +336,9 @@ python interpreter. To do this, make the very first line of the file
 
 	#!/usr/bin/env python
 
-Then, we need to give the file `make_animals.py` permission to execute on its 
+Then, we need to give the file `mean_animals.py` permission to execute on its 
 own. From the command line, in the directory containing the file 
-`make_animals.py`, run the line
+`mean_animals.py`, run the line
 
 	chmod 755 mean_sightings.py
 
