@@ -1,5 +1,5 @@
 # A Brief Introduction to the Shell
-Shreyas Cholia (Borrowed heavily from the Shell section of Cindee Madison's tutorial).
+- Shreyas Cholia (Borrowed heavily from the shell section of Cindee Madison's tutorial).
 
 # Quick links into sections of document
 
