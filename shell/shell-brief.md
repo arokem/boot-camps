@@ -84,12 +84,12 @@ To get
 the data for this tutorial, you will need internet access and an open shell. 
 Just enter the command:
 
-    git clone -b 2013-03-lbl-2 https://github.com/jkitzes/boot-camps.git
+    git clone -b 2013-07-christchurch https://github.com/arokem/boot-camps.git
 
 Followed by:
 
     cd boot-camps
-    git checkout 2013-03-lbl-2
+    git checkout 2013-07-christchurch
 
 You should now have all the data you need for this tutorial (yea!)
 
