@@ -11,7 +11,7 @@ with a keyboard instead of controlling graphical user interfaces
 
 Use a browser to open the tutorial on github, located at:
 
-    https://github.com/USERNAME/boot-camps/tree/YYYY-MM-PLACE
+    https://github.com/arokem/boot-camps/tree/2013-07-christchurch
 
 Click on the directory named `shell`.
 
@@ -51,7 +51,7 @@ by manipulating some experimental data from a hearing test. To get
 the data for this test, you will need internet access. Just enter the
 command:
 
-    git clone -b YYYY-MM-PLACE --single-branch git://github.com/swcarpentry/boot-camps.git
+    git clone -b 2013-07-christchurch git://github.com/arokem/boot-camps.git
 
 This command will grab all of the data needed for this workshop from
 the internet.  (We will talk about the `git` command later in the
@@ -303,8 +303,8 @@ implanted in the inner ear to give deaf people a sense of
 hearing. More than a quarter of a million people have them, but there
 is still no widely-accepted benchmark to measure their effectiveness.
 In order to establish a baseline for such a benchmark, our supervisor
-got teenagers with implants to listen to audio files on their computer 
-and report:
+got teenagers with CIs to listen to audio files on their computer and
+report:
 
 1.  the quietest sound they could hear
 2.  the lowest and highest tones they could hear
@@ -550,7 +550,7 @@ are identical to the `man` program.
 | key     | action |
 | ------- | ---------- |
 | "space" | to go forward |
-|  "b"    | to go backward |
+|  "b"    | to go backwarsd |
 |  "g"    | to go to the beginning |
 |  "G"    | to go to the end |
 |  "q"    | to quit |
