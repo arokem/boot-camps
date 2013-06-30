@@ -11,7 +11,7 @@ with a keyboard instead of controlling graphical user interfaces
 
 Use a browser to open the tutorial on github, located at:
 
-    https://github.com/USERNAME/boot-camps/tree/YYYY-MM-PLACE
+    https://github.com/arokem/boot-camps/tree/2013-07-christchurch
 
 Click on the directory named `shell`.
 
@@ -51,7 +51,7 @@ by manipulating some experimental data from a hearing test. To get
 the data for this test, you will need internet access. Just enter the
 command:
 
-    git clone -b YYYY-MM-PLACE --single-branch git://github.com/swcarpentry/boot-camps.git
+    git clone -b 2013-07-christchurch --single-branch git://github.com/swcarpentry/boot-camps.git
 
 This command will grab all of the data needed for this workshop from
 the internet.  (We will talk about the `git` command later in the
