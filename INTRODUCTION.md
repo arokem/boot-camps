@@ -66,6 +66,6 @@ Does everyone have everything they need installed?
     $cd ~/Documents
 
 - And get this repository, by running this command (we will explain this command later this afternoon):
-	git clone https://github.com/arokem/boot-camps.git --branch 2013-07 christchurch  --single-branch SWC
+	git clone -b 2013-07-christchurch https://github.com/arokem/boot-camps.git
 
 - Now change your working directory to the `SWC` directory. The files that we will be using in the workshop (+much more!) should now be in there.
