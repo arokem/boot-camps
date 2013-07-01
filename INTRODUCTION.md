@@ -68,4 +68,4 @@ Does everyone have everything they need installed?
 - And get this repository, by running this command (we will explain this command later this afternoon):
 	git clone -b 2013-07-christchurch https://github.com/arokem/boot-camps.git
 
-- Now change your working directory to the `SWC` directory. The files that we will be using in the workshop (+much more!) should now be in there.
+- Now change your working directory to the `boot-camps` directory. The files that we will be using in the workshop (+much more!) should now be in there.
