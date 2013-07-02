@@ -94,9 +94,16 @@ working within the IPython notebook.
 To start up a notebook, open Terminal and navigate to the folder containing the 
 ipynb notebook files that you wish to open (or to any directory in which you'd 
 like to save a new notebook, if you're creating a new notebook from scratch). 
+
 Once in the directory, run the command `ipython notebook`, which will launch a 
 local webserver and open your default browser. From there you can open an 
 existing notebook, create a new notebook, and start working.
+
+In this case we'll do 
+
+    git clone -b 2013-07-christchurch https://github.com/arokem/boot-camps.git
+    cd boot-camps/python/intro
+    ipython notebook
 
 Note that if you are on a Windows machine, this command will probably not run 
 in Git bash or Cygwin. Instead, open a Command Prompt (click on the Start menu 
