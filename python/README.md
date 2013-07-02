@@ -131,10 +131,13 @@ Asking Questions
 
 As we go through this lesson, you can ask questions in two ways:
 
-1.	If you have a question for me, just raise your hand and ask.
-2.	If you have a question that you think might be restricted to just you (like 
-	something on your computer isn't working), raise your hand an a volunteer 
-	will come over to help you individually.
+1.	If you have a question, just raise your hand and ask.
+2.	Ask lots of questions!! If you are having a problem someone else is likely to 
+	also be having similar issues
+3.	If you have a problem that you think might be restricted to just you (like 
+	something on your computer isn't working), post a pink sticky note on your
+	computer and someone will come over to help you individually.
+
 
 
 [1]: 
