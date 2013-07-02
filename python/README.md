@@ -85,6 +85,21 @@ it is in, say, shell scripting (pipes and redirection).
 Don't worry if you don't already know what all of the above examples mean - 
 you'll know by the end of this lesson.
 
+Hello World
+-----------
+
+Fire up a terminal and Create a new Python program using nano
+
+    $ nano hello.py
+    print "Hello, World!"
+    
+Run your program
+
+    python hello.py
+
+We'll come back to this later. 
+
+
 Starting an IPython Notebook
 ----------------------------
 
