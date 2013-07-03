@@ -40,14 +40,17 @@ def get_sightings_loop(filename, focusanimal):
     focusanimal = focusanimal.capitalize()
 
     # Loop through all records, countings recs and animals
-    totalrecs = 0
-    totalcount = 0
+    totalrecs = 0.
+    totalcount = 0.
     for rec in tab:
         if rec['animal'] == focusanimal:
             totalrecs += 1
             totalcount += rec['count']
 
-    meancount = totalcount/totalrecs
+    if totalrecs==0:
+        meancount = 0
+    else:
+        meancount = totalcount/totalrecs
 
     # Return num of records and animals seen
     return totalrecs, meancount
