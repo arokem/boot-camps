@@ -283,7 +283,7 @@ program.
 
 Example:
 
-    def get_sightings_loop(filename, focusanimal):
+    def get_sightings(filename, focusanimal):
     
     	# Load table
     	tab = ml.csv2rec(filename)
