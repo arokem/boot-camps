@@ -252,6 +252,62 @@ our test suite again.
 >try to figure out the problem, and correct the function to give the right 
 >answer.
 
+### Test Driven Development - the joy of Red/Green/Refactor
+
+Instead of fixing the above code, we're going to delete get_sightings, and do a very simple run through TDD.
+
+The big idea here is that you think about your problem and write your unit tests *before* 
+you write a single line of code. 
+- This forces you to think about what your problem in terms of different modes of 
+  success/failure and various edge cases, rather than just the basic functionality. 
+- It means that you implement the right amount of functionality without overbuilding.
+- It also gives you a ready-made specification for your design
+
+We have already written our first 4 test cases. 
+- Run ``nosetests``. You will see everything fail (Red)
+
+Now we're going to write a bare minimum ``get_sightings`` that passes the first test case. The code will be 
+really stupid
+
+    def get_sightings(filename, focusanimal):
+		return (2, 17)
+	
+This is clearly wrong BUT it passes a couple of test cases. It has also forced you to think about the structure of your function. 
+
+Now that you have a couple of Greens you would refactor the code to be a little smarter. 
+
+Continue to repeat this process of turning Red to Green; then refactoring and cleaning up.
+
+Hopefully, this actually helps you write better code that has fewer bugs, and gives you deeper insight into the structure of your 
+program.
+
+Example:
+
+    def get_sightings_loop(filename, focusanimal):
+    
+    	# Load table
+    	tab = ml.csv2rec(filename)
+    
+    	# Standardize capitalization of focusanimal
+    	focusanimal = focusanimal.capitalize()
+    
+    	# Loop through all records, countings recs and animals
+        totalrecs = 0.
+        totalcount = 0.
+    	for rec in tab:
+            if rec['animal'] == focusanimal:
+            	totalrecs += 1
+            	totalcount += rec['count']
+    
+    	if totalrecs==0:
+            meancount = 0
+    	else:
+        	meancount = totalcount/totalrecs
+    
+    	# Return num of records and animals seen
+    	return totalrecs, meancount
+
+__BONUS__ If there is time, write some tests that will pass for a different csv file.
 
 Making a Standalone Script
 --------------------------
